@@ -1,0 +1,108 @@
+.grid-container5{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container5 > div{
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+}
+.grid-container4{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container4 > div{
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+}
+.grid-container3{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container3 > div{
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+}
+
+
+/* Bordes */
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+
+h5{
+    text-align: center;
+}
+
+h4{
+    margin: 20px 0 10px 0;
+    font-size: 24px;
+}
+
+
+/* Textos */
+.overline{
+    text-decoration: overline;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.overline-underline{
+    text-decoration: overline underline;
+}
+
+
+/* Transform */
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+
+/* Font type */
+
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: 'lucida handwriting', cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
